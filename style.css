@@ -1,0 +1,114 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+header,footer {
+    position: fixed;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    text-align: center;
+  }
+header{
+    margin-top: 0%;
+    font-size: 14px;
+    color: coral;
+    padding: 15px;
+}
+footer{
+    height: 6vh;
+    bottom: 0;
+    color: darkcyan
+}
+h1{
+    margin-left: 10px;
+    float: right;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+}
+.logo {
+    float: left;     
+} 
+.header-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    display:inline-block;
+}
+
+main{
+    color: aquamarine;
+}
+.flex-container {
+    display: flex;
+  }
+  
+.flex-container figure {
+margin: 0;
+padding: 0;
+margin-top: 140px;
+margin-left: 140px;
+}
+
+.flex-container img {
+width: 100%;
+height: auto;
+}
+.video-container{
+margin-top: 140px;
+margin-left: 80px;
+}
+.main-content{
+color: gold;
+font-size: large;
+}
+.Features{
+    color: deepskyblue;
+    font-size: medium;
+}
+.Audio{
+    text-align: center;
+    color:hotpink;
+    font-size: large;
+}
+.sites{
+    margin-top: 160px;
+    font-size: large;
+    color: gold;
+}
+.Slinks{
+    font-size: large;
+    color: deepskyblue;
+}
+.sites{
+    margin-top: 160px;
+    font-size: large;
+    color: gold;
+}
+.Scontent{
+    font-size: large;
+    color: gold;
+}
+
+

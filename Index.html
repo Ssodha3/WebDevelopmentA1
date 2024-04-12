@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <!---css file link-->
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body> 
+    <header>
+        <div class="header-content">                 
+            <nav>
+              <div class="logo">
+                <img src="E:\WebA1_ShyamaSodha\Assets\Images\Ferrari.png" alt="Website Logo">
+              </div> 
+              <h1>FERRARI CALIFORNIA CONVERTIBLE 2014</h1>    
+              <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="E:\WebA1_ShyamaSodha\HtmlFiles\Summary.html">Summary</a></li>
+                <li><a href="E:\WebA1_ShyamaSodha\HtmlFiles\About.html">About</a></li>
+              </ul>
+            </nav> 
+          </div>       
+    </header>
+    <main>
+        
+    <div class="flex-container">
+      <!--used figure tag so flow of site won't be effected if img didn't load properly--->
+      <figure>
+        <!--path to first car img in home --->
+        <img src="E:\WebA1_ShyamaSodha\Assets\Images\RedF.jpg" alt="Red">
+        <!--also provided caption to img which has name of car--->
+        <figcaption>Red Color Ferrari California Convertible 2014</figcaption>
+      </figure>
+      <div class="video-container">
+        <!--used the inline frame tag to display the youtube video on website--->
+        <iframe width="330" height="250" src="https://www.youtube.com/embed/qNZKmLMbTk0?si=jc9FS8BbFpPEdEiH" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <figure>
+        <!--another img of car and caption has it's name--->
+        <img src="E:\WebA1_ShyamaSodha\Assets\Images\WhiteF.jpg" alt="White5">
+        <figcaption>White Color Ferrari California Convertible 2014</figcaption>
+      </figure>
+    </div>
+  <div class="main-content">
+    <!--some description of brand and feature of product
+      used different tag for better design --->
+      <!--strong tag to bold some words, time to show date in specified formate, definition tag while explaining turbo technology--->
+    <p><strong>The Ferrari California T </strong>first uncovered on the web on <time datetime="2014-2-12">February 12, 2014</time>.
+    To highlight the <dfn>TURBO</dfn> technology, last used in F40 road-car this name was selected where <dfn>T</dfn> stands for Turbo.
+    <cite>It is one of the <b>first</b> car which had the Apple CarPlay functionality <q>build-in</q> the system.This model is </cite>Designed under the direction of <i>Flavio Manzoni</i> in <em>Ferrari</em> Styling Centre collaborating with Pininfarina.
+    Price typically started at around $200,000 dollars.It reduced emission pollution by 15%. Its features are listed below:</p>
+    <ul class="Features">
+      <!--used unordered list for presenting some features of car model  --->
+      <li>Fuel economy of 13 mpg in the city and 19 mpg on the highway and engine of 3.9 L F154 BB twin-turbo V8. </li>  
+      <li>Leather upholstery and interior trim & retractable Hardtop Convertible along with braking capability by <q>Carbon-Ceramic Brakes</q></li>  
+      <li>Advanced infotainment system with navigation and multimedia functions with various driver assistance features.</li> 
+    </ul>
+ </div>
+ <div class="Audio">
+  <!--added the roar sound using audio tag--->
+   <audio controls>
+    <!--path to audio file--->
+    <source src="E:\WebA1_ShyamaSodha\Assets\Audio\Engine.ogg" type="audio/ogg">
+    Your browser does not support the audio element.
+  </audio><p>Play to hear its<q> Engine Roar</q></p>
+ </div>
+  </main>
+    <footer>
+        <h3>&copy; 2024 Shyama Sodha. All Rights Reserved.</h3>
+    </footer>
+</body>
+</html>
+
+
